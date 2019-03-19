@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "louistran99" => "louist@zillow.com" }
   s.platform     = :ios, "11.0"
   s.swift_version = "4.2"
-  s.source       = { :git => "ssh://git@bitbucket.hotterpads.com:7999/mob/webservice-ios.git", :branch => "no-jira-update-podspec" }
+  s.source       = { :git => "ssh://git@bitbucket.hotterpads.com:7999/mob/webservice-ios.git", :tag => s.version.to_s}
   s.source_files  = "WebService/**/*.{h,m,swift}"
 
   s.pod_target_xcconfig = {'SWIFT_VERSION' => '4.2'}
